@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD38895B18E7C994004467B5 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38895A18E7C994004467B5 /* MyModalViewController.m */; };
+		BD38895E18E7CBD8004467B5 /* PeakMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38895D18E7CBD8004467B5 /* PeakMoment.m */; };
 		BD699DF218E787C60085F819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF118E787C60085F819 /* Foundation.framework */; };
 		BD699DF418E787C60085F819 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF318E787C60085F819 /* CoreGraphics.framework */; };
 		BD699DF618E787C60085F819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF518E787C60085F819 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		BD699E1318E787C60085F819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF518E787C60085F819 /* UIKit.framework */; };
 		BD699E1B18E787C60085F819 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD699E1918E787C60085F819 /* InfoPlist.strings */; };
 		BD699E1D18E787C60085F819 /* PeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD699E1C18E787C60085F819 /* PeakTests.m */; };
+		BDA7696218E7ACF0002922B3 /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA7696118E7ACF0002922B3 /* MyCustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD38895918E7C994004467B5 /* MyModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModalViewController.h; sourceTree = "<group>"; };
+		BD38895A18E7C994004467B5 /* MyModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModalViewController.m; sourceTree = "<group>"; };
+		BD38895C18E7CBD8004467B5 /* PeakMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakMoment.h; sourceTree = "<group>"; };
+		BD38895D18E7CBD8004467B5 /* PeakMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakMoment.m; sourceTree = "<group>"; };
 		BD699DEE18E787C60085F819 /* Peak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD699DF118E787C60085F819 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD699DF318E787C60085F819 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,8 @@
 		BD699E1818E787C60085F819 /* PeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeakTests-Info.plist"; sourceTree = "<group>"; };
 		BD699E1A18E787C60085F819 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD699E1C18E787C60085F819 /* PeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeakTests.m; sourceTree = "<group>"; };
+		BDA7696018E7ACF0002922B3 /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCustomTableViewCell.h; path = ../MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		BDA7696118E7ACF0002922B3 /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCustomTableViewCell.m; path = ../MyCustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +121,19 @@
 		BD699DF718E787C60085F819 /* Peak */ = {
 			isa = PBXGroup;
 			children = (
+				BDA7696018E7ACF0002922B3 /* MyCustomTableViewCell.h */,
+				BDA7696118E7ACF0002922B3 /* MyCustomTableViewCell.m */,
 				BD699E0018E787C60085F819 /* AppDelegate.h */,
 				BD699E0118E787C60085F819 /* AppDelegate.m */,
 				BD699E0318E787C60085F819 /* Main.storyboard */,
+				BD38895918E7C994004467B5 /* MyModalViewController.h */,
+				BD38895A18E7C994004467B5 /* MyModalViewController.m */,
 				BD699E0618E787C60085F819 /* ViewController.h */,
 				BD699E0718E787C60085F819 /* ViewController.m */,
 				BD699E0918E787C60085F819 /* Images.xcassets */,
 				BD699DF818E787C60085F819 /* Supporting Files */,
+				BD38895C18E7CBD8004467B5 /* PeakMoment.h */,
+				BD38895D18E7CBD8004467B5 /* PeakMoment.m */,
 			);
 			path = Peak;
 			sourceTree = "<group>";
@@ -250,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD699E0818E787C60085F819 /* ViewController.m in Sources */,
+				BD38895B18E7C994004467B5 /* MyModalViewController.m in Sources */,
 				BD699E0218E787C60085F819 /* AppDelegate.m in Sources */,
+				BDA7696218E7ACF0002922B3 /* MyCustomTableViewCell.m in Sources */,
+				BD38895E18E7CBD8004467B5 /* PeakMoment.m in Sources */,
 				BD699DFE18E787C60085F819 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +474,7 @@
 				BD699E2218E787C60085F819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD699E2318E787C60085F819 /* Build configuration list for PBXNativeTarget "PeakTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +483,7 @@
 				BD699E2518E787C60085F819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

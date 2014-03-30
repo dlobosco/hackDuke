@@ -15,5 +15,7 @@
 @property (nonatomic) IBOutlet UITableView *tableView;
 
 
+@property (nonatomic) NSMutableArray *dayPost;
+
 
 @end
