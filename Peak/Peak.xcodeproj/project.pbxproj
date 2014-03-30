@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		BD38895B18E7C994004467B5 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38895A18E7C994004467B5 /* MyModalViewController.m */; };
 		BD38895E18E7CBD8004467B5 /* PeakMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38895D18E7CBD8004467B5 /* PeakMoment.m */; };
+		BD38896218E806A3004467B5 /* add_moment_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BD38895F18E806A3004467B5 /* add_moment_button.png */; };
+		BD38896318E806A3004467B5 /* submit_button.png in Resources */ = {isa = PBXBuildFile; fileRef = BD38896018E806A3004467B5 /* submit_button.png */; };
+		BD38896418E806A3004467B5 /* top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BD38896118E806A3004467B5 /* top_bar.png */; };
+		BD38896818E80D4B004467B5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896718E80D4B004467B5 /* Parse.framework */; };
+		BD38896A18E812A2004467B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896918E812A2004467B5 /* AudioToolbox.framework */; };
+		BD38896C18E812AA004467B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896B18E812AA004467B5 /* CFNetwork.framework */; };
+		BD38897418E812D8004467B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896D18E812D8004467B5 /* CoreLocation.framework */; };
+		BD38897518E812D8004467B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896E18E812D8004467B5 /* libz.dylib */; };
+		BD38897618E812D8004467B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38896F18E812D8004467B5 /* MobileCoreServices.framework */; };
+		BD38897718E812D8004467B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38897018E812D8004467B5 /* QuartzCore.framework */; };
+		BD38897818E812D8004467B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38897118E812D8004467B5 /* Security.framework */; };
+		BD38897918E812D8004467B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38897218E812D8004467B5 /* StoreKit.framework */; };
+		BD38897A18E812D8004467B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38897318E812D8004467B5 /* SystemConfiguration.framework */; };
+		BD38897D18E831A0004467B5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38897C18E831A0004467B5 /* MBProgressHUD.m */; };
 		BD699DF218E787C60085F819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF118E787C60085F819 /* Foundation.framework */; };
 		BD699DF418E787C60085F819 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF318E787C60085F819 /* CoreGraphics.framework */; };
 		BD699DF618E787C60085F819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD699DF518E787C60085F819 /* UIKit.framework */; };
@@ -41,6 +55,21 @@
 		BD38895A18E7C994004467B5 /* MyModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModalViewController.m; sourceTree = "<group>"; };
 		BD38895C18E7CBD8004467B5 /* PeakMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakMoment.h; sourceTree = "<group>"; };
 		BD38895D18E7CBD8004467B5 /* PeakMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakMoment.m; sourceTree = "<group>"; };
+		BD38895F18E806A3004467B5 /* add_moment_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_moment_button.png; sourceTree = "<group>"; };
+		BD38896018E806A3004467B5 /* submit_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit_button.png; sourceTree = "<group>"; };
+		BD38896118E806A3004467B5 /* top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bar.png; sourceTree = "<group>"; };
+		BD38896718E80D4B004467B5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BD38896918E812A2004467B5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD38896B18E812AA004467B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BD38896D18E812D8004467B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BD38896E18E812D8004467B5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BD38896F18E812D8004467B5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BD38897018E812D8004467B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD38897118E812D8004467B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BD38897218E812D8004467B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BD38897318E812D8004467B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BD38897B18E831A0004467B5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = "<group>"; };
+		BD38897C18E831A0004467B5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
 		BD699DEE18E787C60085F819 /* Peak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD699DF118E787C60085F819 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD699DF318E787C60085F819 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,8 +98,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD38897418E812D8004467B5 /* CoreLocation.framework in Frameworks */,
+				BD38897518E812D8004467B5 /* libz.dylib in Frameworks */,
+				BD38897618E812D8004467B5 /* MobileCoreServices.framework in Frameworks */,
+				BD38897718E812D8004467B5 /* QuartzCore.framework in Frameworks */,
+				BD38897818E812D8004467B5 /* Security.framework in Frameworks */,
+				BD38897918E812D8004467B5 /* StoreKit.framework in Frameworks */,
+				BD38897A18E812D8004467B5 /* SystemConfiguration.framework in Frameworks */,
 				BD699DF418E787C60085F819 /* CoreGraphics.framework in Frameworks */,
+				BD38896C18E812AA004467B5 /* CFNetwork.framework in Frameworks */,
+				BD38896A18E812A2004467B5 /* AudioToolbox.framework in Frameworks */,
 				BD699DF618E787C60085F819 /* UIKit.framework in Frameworks */,
+				BD38896818E80D4B004467B5 /* Parse.framework in Frameworks */,
 				BD699DF218E787C60085F819 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +149,16 @@
 		BD699DF018E787C60085F819 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD38896D18E812D8004467B5 /* CoreLocation.framework */,
+				BD38896E18E812D8004467B5 /* libz.dylib */,
+				BD38896F18E812D8004467B5 /* MobileCoreServices.framework */,
+				BD38897018E812D8004467B5 /* QuartzCore.framework */,
+				BD38897118E812D8004467B5 /* Security.framework */,
+				BD38897218E812D8004467B5 /* StoreKit.framework */,
+				BD38897318E812D8004467B5 /* SystemConfiguration.framework */,
+				BD38896B18E812AA004467B5 /* CFNetwork.framework */,
+				BD38896918E812A2004467B5 /* AudioToolbox.framework */,
+				BD38896718E80D4B004467B5 /* Parse.framework */,
 				BD699DF118E787C60085F819 /* Foundation.framework */,
 				BD699DF318E787C60085F819 /* CoreGraphics.framework */,
 				BD699DF518E787C60085F819 /* UIKit.framework */,
@@ -121,6 +170,8 @@
 		BD699DF718E787C60085F819 /* Peak */ = {
 			isa = PBXGroup;
 			children = (
+				BD38897B18E831A0004467B5 /* MBProgressHUD.h */,
+				BD38897C18E831A0004467B5 /* MBProgressHUD.m */,
 				BDA7696018E7ACF0002922B3 /* MyCustomTableViewCell.h */,
 				BDA7696118E7ACF0002922B3 /* MyCustomTableViewCell.m */,
 				BD699E0018E787C60085F819 /* AppDelegate.h */,
@@ -141,6 +192,9 @@
 		BD699DF818E787C60085F819 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD38895F18E806A3004467B5 /* add_moment_button.png */,
+				BD38896018E806A3004467B5 /* submit_button.png */,
+				BD38896118E806A3004467B5 /* top_bar.png */,
 				BD699DF918E787C60085F819 /* Peak-Info.plist */,
 				BD699DFA18E787C60085F819 /* InfoPlist.strings */,
 				BD699DFD18E787C60085F819 /* main.m */,
@@ -245,7 +299,10 @@
 			files = (
 				BD699E0A18E787C60085F819 /* Images.xcassets in Resources */,
 				BD699DFC18E787C60085F819 /* InfoPlist.strings in Resources */,
+				BD38896318E806A3004467B5 /* submit_button.png in Resources */,
+				BD38896418E806A3004467B5 /* top_bar.png in Resources */,
 				BD699E0518E787C60085F819 /* Main.storyboard in Resources */,
+				BD38896218E806A3004467B5 /* add_moment_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +327,7 @@
 				BDA7696218E7ACF0002922B3 /* MyCustomTableViewCell.m in Sources */,
 				BD38895E18E7CBD8004467B5 /* PeakMoment.m in Sources */,
 				BD699DFE18E787C60085F819 /* main.m in Sources */,
+				BD38897D18E831A0004467B5 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peak/Peak-Prefix.pch";
 				INFOPLIST_FILE = "Peak/Peak-Info.plist";
@@ -407,6 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Peak/Peak-Prefix.pch";
 				INFOPLIST_FILE = "Peak/Peak-Info.plist";

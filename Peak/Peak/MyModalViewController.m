@@ -32,6 +32,8 @@
    
     self.imageView.image = self.imageToDisplay;
     self.moment = [[PeakMoment alloc] initWithImage:self.imageView.image];
+    
+    //self.peakWords.text =@"Insert Caption Here!";
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,21 +51,18 @@
 }
 
 #pragma mark - text view delegate methods
-- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-    
-    [textField resignFirstResponder];
+//- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+//    
+//    [textField resignFirstResponder];
+//    return YES;
+//}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
     return YES;
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
+
 
 @end

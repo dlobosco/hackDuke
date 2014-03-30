@@ -7,15 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MBProgressHUD.h"
+#import <Parse/Parse.h>
 @interface ViewController : UIViewController
     <UITableViewDelegate,UITableViewDataSource>
 
 
 @property (nonatomic) IBOutlet UITableView *tableView;
-
-
+//@property (nonatomic) PFFile *imageFile;
 @property (nonatomic) NSMutableArray *dayPost;
 
 
+//- (void)hudWasHidden:(MBProgressHUD *)hud;
 @end
